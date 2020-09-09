@@ -9,4 +9,6 @@ sudo chsh -s /bin/zsh $USER
 
 # copy dotfiles into ~
 shopt -s dotglob # include . in *
-yes | cp -rf ~/dotfiles/* ~
+
+shopt -s extglob
+yes | cp -rf ~/dotfiles/!(.git) ~
