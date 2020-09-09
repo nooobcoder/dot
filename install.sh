@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Install ZSH
-sudo apt-get install -y vim zsh
+sudo apt-get install -y vim zsh nano
 sudo chsh -s /bin/zsh $USER
 
 # Install Oh My ZSH (if it is not already installed)
