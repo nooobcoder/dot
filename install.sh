@@ -9,4 +9,4 @@ sudo chsh -s /bin/zsh $USER
 
 # copy dotfiles into ~
 shopt -s dotglob # include . in *
-yes | cp -rf cp -f ~/dotfiles/* ~
+yes | cp -rf ~/dotfiles/* ~
