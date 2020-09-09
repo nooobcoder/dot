@@ -6,3 +6,6 @@ sudo chsh -s /bin/zsh $USER
 
 # Install Oh My ZSH (if it is not already installed)
 [ ! -d "~/.oh-my-zsh" ] && sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+
+# move dotfiles into ~ 
+mv -f ~/dotfiles/[!.]* ~

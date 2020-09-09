@@ -1,5 +1,5 @@
 export ZSH=$HOME/.oh-my-zsh
-export ZSH_THEME="zanshin"
+export ZSH_THEME="agnoster"
 
 plugins=(
   git
