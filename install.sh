@@ -11,4 +11,4 @@ sudo chsh -s /bin/zsh $USER
 shopt -s dotglob # include . in *
 
 shopt -s extglob
-yes | cp -rf ~/dotfiles/!(.git) ~
+yes | cp -rf ~/dotfiles/!(.git|.|..) ~
