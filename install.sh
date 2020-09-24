@@ -14,4 +14,4 @@ yes | cp -rf ~/dotfiles/!(.git|.zshrc|.|..) ~
 
 # Append zshrc stuff to end of file
 touch ~/.zshrc # not sure if this will always exist at this point :/
-cat .zshrc >> ~./.zshrc
+cat .zshrc >> ~/.zshrc
