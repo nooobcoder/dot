@@ -1,5 +1,5 @@
 {
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
-    "terminal.integrated.shell.linux": "/usr/bin/zsh"
+    //"terminal.integrated.shell.linux": "/usr/bin/zsh"
 }
