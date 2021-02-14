@@ -25,8 +25,8 @@ if [ -f "~/.local/share/code-server/User/settings.json" ]
 then
     echo "VS Code settings are already present." 
 else
-    cp -rf dotfiles/.local ~/local
+    cp -rf dotfiles/.local ~/.local
     # Install extensions
     /opt/coder/code-server/bin/code-server --install-extension esbenp.prettier-vscode
-    /opt/coder/code-server/bin/code-server daylerees.rainglow
+    /opt/coder/code-server/bin/code-server --install-extension daylerees.rainglow
 fi
