@@ -5,7 +5,7 @@ sudo apt-get install -y vim zsh nano
 sudo chsh -s /bin/zsh $USER
 
 # Install and configure Oh My ZSH (if it is not already installed)
-if [ -d "~/.oh-my-zsh" ] 
+if [ -d "/home/coder/.oh-my-zsh" ] 
 then
     echo "oh-my-zsh is already installed" 
 else
@@ -21,7 +21,7 @@ shopt -s extglob
 yes | cp -rf ~/dotfiles/!(.git|.zshrc|.|..|.local) ~
 
 # Set VS Code preferences for the FIRST time
-if [ -f "~/.local/share/code-server/User/settings.json" ] 
+if [ -f "/home/coder/.local/share/code-server/User/settings.json" ] 
 then
     echo "VS Code settings are already present." 
 else
