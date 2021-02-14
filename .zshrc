@@ -6,4 +6,7 @@ plugins=(
   dotenv
 )
 
+# Add code-server to path
+export PATH=$PATH:/opt/coder/code-server/bin
+
 source $ZSH/oh-my-zsh.sh
