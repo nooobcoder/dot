@@ -18,6 +18,9 @@ sudo apt install npm -y
 sudo apt-get install -y vim zsh nano
 sudo chsh -s /bin/zsh $USER
 
+# Making a project folder
+mkdir project
+
 # Install and configure Oh My ZSH (if it is not already installed)
 if [ -d "/home/coder/.oh-my-zsh" ] 
 then
