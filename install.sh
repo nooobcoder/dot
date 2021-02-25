@@ -2,8 +2,18 @@
 
 
 sudo apt-get update -y
+sudo apt-get upgrade -y
 sudo apt-get install git
-sudo apt-get install openjdk-11-jdk
+sudo apt install python3-pip
+sudo pip3 install pylint
+sudo pip3 install autopep8
+sudo apt-get install openjdk-11-jdk -y
+sudo apt install g++ -y
+sudo apt install gcc -y
+sudo apt install gdb -y
+sudo apt install nodejs -y
+sudo apt install npm -y
+
 # Install ZSH
 sudo apt-get install -y vim zsh nano
 sudo chsh -s /bin/zsh $USER
