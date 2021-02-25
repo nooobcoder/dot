@@ -52,4 +52,5 @@ else
     /opt/coder/code-server/bin/code-server --install-extension k--kato.intellij-idea-keybindings
     /opt/coder/code-server/bin/code-server --install-extension ahmadawais.shades-of-purple
     /opt/coder/code-server/bin/code-server --install-extension evan-buss.font-switcher
+    /opt/coder/code-server/bin/code-server --install-extension vscode-icons-team.vscode-icons
 fi
