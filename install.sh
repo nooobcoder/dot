@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
+
 sudo apt-get update -y
+sudo apt-get install git
 sudo apt-get install openjdk-11-jdk
 # Install ZSH
 sudo apt-get install -y vim zsh nano
