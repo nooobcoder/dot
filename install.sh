@@ -13,6 +13,7 @@ sudo apt install gcc -y
 sudo apt install gdb -y
 sudo apt install nodejs -y
 sudo apt install npm -y
+sudo apt-get install iputils-ping -y
 
 # Install ZSH
 sudo apt-get install -y vim zsh nano
