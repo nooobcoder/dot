@@ -99,15 +99,16 @@ else
     /opt/coder/code-server/bin/code-server --install-extension tinkertrain.theme-panda
     /opt/coder/code-server/bin/code-server --install-extension vaniship.vue-ls-snippets
     /opt/coder/code-server/bin/code-server --install-extension wix.vscode-import-cost
-    /opt/coder/code-server/bin/code-server --install-extensiondahong.theme-bear
-/opt/coder/code-server/bin/code-server --install-extensionms-toolsai.jupyter
-/opt/coder/code-server/bin/code-server --install-extensionms-vscode.cpptools
-/opt/coder/code-server/bin/code-server --install-extensionPerkovec.emoji
-/opt/coder/code-server/bin/code-server --install-extensionredhat.java
-/opt/coder/code-server/bin/code-server --install-extensionvscjava.vscode-java-debug
-/opt/coder/code-server/bin/code-server --install-extensionvscjava.vscode-java-dependency
-/opt/coder/code-server/bin/code-server --install-extensionvscjava.vscode-java-pack
-/opt/coder/code-server/bin/code-server --install-extensionvscjava.vscode-java-test
-/opt/coder/code-server/bin/code-server --install-extensionvscjava.vscode-maven
+    /opt/coder/code-server/bin/code-server --install-extension dahong.theme-bear
+/opt/coder/code-server/bin/code-server --install-extension ms-toolsai.jupyter
+/opt/coder/code-server/bin/code-server --install-extension ms-vscode.cpptools
+/opt/coder/code-server/bin/code-server --install-extension Perkovec.emoji
+/opt/coder/code-server/bin/code-server --install-extension redhat.java
+/opt/coder/code-server/bin/code-server --install-extension vscjava.vscode-java-debug
+/opt/coder/code-server/bin/code-server --install-extension vscjava.vscode-java-dependency
+/opt/coder/code-server/bin/code-server --install-extension vscjava.vscode-java-pack
+/opt/coder/code-server/bin/code-server --install-extension vscjava.vscode-java-test
+/opt/coder/code-server/bin/code-server --install-extension vscjava.vscode-maven
+/opt/coder/code-server/bin/code-server --install-extension vsls-contrib.codetour
 fi
 
