@@ -111,5 +111,6 @@ else
 /opt/coder/code-server/bin/code-server --install-extension vscjava.vscode-java-test
 /opt/coder/code-server/bin/code-server --install-extension vscjava.vscode-maven
 /opt/coder/code-server/bin/code-server --install-extension vsls-contrib.codetour
+/opt/coder/code-server/bin/code-server --install-extension xaver.clang-format
 fi
 
