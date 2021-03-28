@@ -48,69 +48,69 @@ then
 else
     cp -rf /home/coder/dotfiles/.local ~/.local
     # Install extensions
-        /opt/coder/code-server/bin/code-server --install-extension esbenp.prettier-vscode
-    /opt/coder/code-server/bin/code-server --install-extension daylerees.rainglow
-    /opt/coder/code-server/bin/code-server --install-extension vscjava.vscode-java-pack
-    /opt/coder/code-server/bin/code-server --install-extension oderwat.indent-rainbow
-    /opt/coder/code-server/bin/code-server --install-extension CoenraadS.bracket-pair-colorizer
-    /opt/coder/code-server/bin/code-server --install-extension k--kato.intellij-idea-keybindings
-    /opt/coder/code-server/bin/code-server --install-extension evan-buss.font-switcher
-    /opt/coder/code-server/bin/code-server --install-extension vscode-icons-team.vscode-icons
-    /opt/coder/code-server/bin/code-server --install-extension aaron-bond.better-comments
-    /opt/coder/code-server/bin/code-server --install-extension ahmadawais.shades-of-purple
-    /opt/coder/code-server/bin/code-server --install-extension AlanWalk.quick-open-file
-    /opt/coder/code-server/bin/code-server --install-extension avraammavridis.vsc-react-documentation
-    /opt/coder/code-server/bin/code-server --install-extension bengreenier.vscode-node-readme
-    /opt/coder/code-server/bin/code-server --install-extension bierner.color-info
-    /opt/coder/code-server/bin/code-server --install-extension burkeholland.simple-react-snippets
-    /opt/coder/code-server/bin/code-server --install-extension christian-kohler.npm-intellisense
-    /opt/coder/code-server/bin/code-server --install-extension christian-kohler.path-intellisense
-    /opt/coder/code-server/bin/code-server --install-extension CoenraadS.bracket-pair-colorizer
-    /opt/coder/code-server/bin/code-server --install-extension dahong.theme-bear
-    /opt/coder/code-server/bin/code-server --install-extension dbaeumer.vscode-eslint
-    /opt/coder/code-server/bin/code-server --install-extension dsznajder.es7-react-js-snippets
-    /opt/coder/code-server/bin/code-server --install-extension ecmel.vscode-html-css
-    /opt/coder/code-server/bin/code-server --install-extension eg2.vscode-npm-script
-    /opt/coder/code-server/bin/code-server --install-extension Equinusocio.vsc-material-theme
-    /opt/coder/code-server/bin/code-server --install-extension esbenp.prettier-vscode
-    /opt/coder/code-server/bin/code-server --install-extension evan-buss.font-switcher
-    /opt/coder/code-server/bin/code-server --install-extension formulahendry.auto-close-tag
-    /opt/coder/code-server/bin/code-server --install-extension formulahendry.auto-rename-tag
-    /opt/coder/code-server/bin/code-server --install-extension Fr43nk.seito-openfile
-    /opt/coder/code-server/bin/code-server --install-extension GitHub.github-vscode-theme
-    /opt/coder/code-server/bin/code-server --install-extension jpoissonnier.vscode-styled-components
-    /opt/coder/code-server/bin/code-server --install-extension k--kato.intellij-idea-keybindings
-    /opt/coder/code-server/bin/code-server --install-extension lacroixdavid1.vscode-format-context-menu
-    /opt/coder/code-server/bin/code-server --install-extension liuji-jim.vue
-    /opt/coder/code-server/bin/code-server --install-extension mikestead.dotenv
-    /opt/coder/code-server/bin/code-server --install-extension mongodb.mongodb-vscode
-    /opt/coder/code-server/bin/code-server --install-extension monokai.theme-monokai-pro-vscode
-    /opt/coder/code-server/bin/code-server --install-extension ms-python.python
-    /opt/coder/code-server/bin/code-server --install-extension ms-vscode.node-debug2
-    /opt/coder/code-server/bin/code-server --install-extension ms-vscode.vscode-typescript-next
-    /opt/coder/code-server/bin/code-server --install-extension naumovs.color-highlight
-    /opt/coder/code-server/bin/code-server --install-extension oderwat.indent-rainbow
-    /opt/coder/code-server/bin/code-server --install-extension OfHumanBondage.react-proptypes-intellisense
-    /opt/coder/code-server/bin/code-server --install-extension Perkovec.emoji
-    /opt/coder/code-server/bin/code-server --install-extension PKief.material-icon-theme
-    /opt/coder/code-server/bin/code-server --install-extension ritwickdey.LiveServer
-    /opt/coder/code-server/bin/code-server --install-extension steoates.autoimport
-    /opt/coder/code-server/bin/code-server --install-extension teabyii.ayu
-    /opt/coder/code-server/bin/code-server --install-extension tgreen7.vs-code-node-require
-    /opt/coder/code-server/bin/code-server --install-extension tinkertrain.theme-panda
-    /opt/coder/code-server/bin/code-server --install-extension vaniship.vue-ls-snippets
-    /opt/coder/code-server/bin/code-server --install-extension wix.vscode-import-cost
-    /opt/coder/code-server/bin/code-server --install-extension dahong.theme-bear
-/opt/coder/code-server/bin/code-server --install-extension ms-toolsai.jupyter
-/opt/coder/code-server/bin/code-server --install-extension ms-vscode.cpptools
-/opt/coder/code-server/bin/code-server --install-extension Perkovec.emoji
-/opt/coder/code-server/bin/code-server --install-extension redhat.java
-/opt/coder/code-server/bin/code-server --install-extension vscjava.vscode-java-debug
-/opt/coder/code-server/bin/code-server --install-extension vscjava.vscode-java-dependency
-/opt/coder/code-server/bin/code-server --install-extension vscjava.vscode-java-pack
-/opt/coder/code-server/bin/code-server --install-extension vscjava.vscode-java-test
-/opt/coder/code-server/bin/code-server --install-extension vscjava.vscode-maven
-/opt/coder/code-server/bin/code-server --install-extension vsls-contrib.codetour
-/opt/coder/code-server/bin/code-server --install-extension xaver.clang-format
+    code-server --install-extension esbenp.prettier-vscode
+    code-server --install-extension daylerees.rainglow
+    code-server --install-extension vscjava.vscode-java-pack
+    code-server --install-extension oderwat.indent-rainbow
+    code-server --install-extension CoenraadS.bracket-pair-colorizer
+    code-server --install-extension k--kato.intellij-idea-keybindings
+    code-server --install-extension evan-buss.font-switcher
+    code-server --install-extension vscode-icons-team.vscode-icons
+    code-server --install-extension aaron-bond.better-comments
+    code-server --install-extension ahmadawais.shades-of-purple
+    code-server --install-extension AlanWalk.quick-open-file
+    code-server --install-extension avraammavridis.vsc-react-documentation
+    code-server --install-extension bengreenier.vscode-node-readme
+    code-server --install-extension bierner.color-info
+    code-server --install-extension burkeholland.simple-react-snippets
+    code-server --install-extension christian-kohler.npm-intellisense
+    code-server --install-extension christian-kohler.path-intellisense
+    code-server --install-extension CoenraadS.bracket-pair-colorizer
+    code-server --install-extension dahong.theme-bear
+    code-server --install-extension dbaeumer.vscode-eslint
+    code-server --install-extension dsznajder.es7-react-js-snippets
+    code-server --install-extension ecmel.vscode-html-css
+    code-server --install-extension eg2.vscode-npm-script
+    code-server --install-extension Equinusocio.vsc-material-theme
+    code-server --install-extension esbenp.prettier-vscode
+    code-server --install-extension evan-buss.font-switcher
+    code-server --install-extension formulahendry.auto-close-tag
+    code-server --install-extension formulahendry.auto-rename-tag
+    code-server --install-extension Fr43nk.seito-openfile
+    code-server --install-extension GitHub.github-vscode-theme
+    code-server --install-extension jpoissonnier.vscode-styled-components
+    code-server --install-extension k--kato.intellij-idea-keybindings
+    code-server --install-extension lacroixdavid1.vscode-format-context-menu
+    code-server --install-extension liuji-jim.vue
+    code-server --install-extension mikestead.dotenv
+    code-server --install-extension mongodb.mongodb-vscode
+    code-server --install-extension monokai.theme-monokai-pro-vscode
+    code-server --install-extension ms-python.python
+    code-server --install-extension ms-vscode.node-debug2
+    code-server --install-extension ms-vscode.vscode-typescript-next
+    code-server --install-extension naumovs.color-highlight
+    code-server --install-extension oderwat.indent-rainbow
+    code-server --install-extension OfHumanBondage.react-proptypes-intellisense
+    code-server --install-extension Perkovec.emoji
+    code-server --install-extension PKief.material-icon-theme
+    code-server --install-extension ritwickdey.LiveServer
+    code-server --install-extension steoates.autoimport
+    code-server --install-extension teabyii.ayu
+    code-server --install-extension tgreen7.vs-code-node-require
+    code-server --install-extension tinkertrain.theme-panda
+    code-server --install-extension vaniship.vue-ls-snippets
+    code-server --install-extension wix.vscode-import-cost
+    code-server --install-extension dahong.theme-bear
+    code-server --install-extension ms-toolsai.jupyter
+    code-server --install-extension ms-vscode.cpptools
+    code-server --install-extension Perkovec.emoji
+    code-server --install-extension redhat.java
+    code-server --install-extension vscjava.vscode-java-debug
+    code-server --install-extension vscjava.vscode-java-dependency
+    code-server --install-extension vscjava.vscode-java-pack
+    code-server --install-extension vscjava.vscode-java-test
+    code-server --install-extension vscjava.vscode-maven
+    code-server --install-extension vsls-contrib.codetour
+    code-server --install-extension xaver.clang-format
 fi
 
