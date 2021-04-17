@@ -116,6 +116,7 @@ else
     code-server --install-extension vscjava.vscode-maven
     code-server --install-extension vsls-contrib.codetour
     code-server --install-extension xaver.clang-format
+    code-server --install-extension denoland.vscode-deno
     code-server --install-extension trinm1709.dracula-theme-from-intellij
 fi
 
