@@ -18,6 +18,9 @@ sudo apt-get install iputils-ping -y
 sudo apt install nodejs -y
 sudo apt install npm -y
 
+# Install DenoJS from source
+curl -fsSL https://deno.land/x/install/install.sh | sh
+
 # Install ZSH
 sudo apt-get install -y vim zsh nano
 sudo chsh -s /bin/zsh $USER
