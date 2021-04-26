@@ -26,6 +26,9 @@ curl -fsSL https://deno.land/x/install/install.sh | sh
 sudo apt-get install -y vim zsh nano
 sudo chsh -s /bin/zsh $USER
 
+git config --global user.name "nooobcoder"
+git config --global user.email "suryashi2013@gmail.com"
+
 # Making a project folder
 mkdir project
 
