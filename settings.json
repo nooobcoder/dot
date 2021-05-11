@@ -122,5 +122,7 @@
 	},
 	"[typescriptreact]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
-	}
+	},
+	"terminal.integrated.tabs.enabled": true,
+	"terminal.integrated.tabs.location": "left"
 }
