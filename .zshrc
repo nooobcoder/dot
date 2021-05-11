@@ -1,5 +1,5 @@
 export ZSH=$HOME/.oh-my-zsh
-export ZSH_THEME="cloud"
+export ZSH_THEME="cloud"agnoster
 plugins=(
   git
   dotenv
