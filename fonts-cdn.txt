@@ -40,6 +40,13 @@
 }
 
 @font-face {
+    font-family: 'Cascadia Mono';
+    src: url('https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css') format('css');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'JetBrains Mono';
     src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Bold-Italic.woff2') format('woff2'),
     url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Bold-Italic.woff') format('woff');
