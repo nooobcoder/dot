@@ -41,7 +41,7 @@
 
 @font-face {
     font-family: 'Cascadia Mono';
-    src: url('https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css') format('css');
+    src: url('https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.css') format('css');
     font-weight: 100;
     font-style: normal;
 }
