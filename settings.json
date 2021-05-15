@@ -22,7 +22,6 @@
 		"editor.tabCompletion": "onlySnippets",
 		"editor.wordBasedSuggestions": false
 	},
-	"terminal.integrated.fontFamily": "monospace",
 	"workbench.iconTheme": "material-icon-theme",
 	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -53,7 +52,6 @@
 	},
 	"debug.console.wordWrap": false,
 	"editor.wordWrap": "on",
-	"terminal.integrated.shell.linux": "/usr/bin/zsh",
 	"deno.path": "/home/coder/.deno/bin/deno",
 	"java.configuration.runtimes": [
 		{
@@ -128,4 +126,5 @@
 	"terminal.integrated.tabs.location": "left",
 	"editor.fontWeight": "300",
 	"terminal.integrated.fontFamily": "Cascadia Mono",
+	"debug.inlineValues": true,
 }
