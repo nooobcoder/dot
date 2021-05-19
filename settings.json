@@ -129,4 +129,16 @@
 	"terminal.integrated.fontWeight": "360",
 	"terminal.integrated.fontFamily": "Cascadia Code",
 	"debug.inlineValues": true,
+	"C_Cpp.experimentalFeatures": "Enabled",
+	"C_Cpp.intelliSenseUpdateDelay": 500,
+	"C_Cpp.updateChannel": "Insiders",
+	"C_Cpp.vcFormat.indent.caseLabels": true,
+	"C_Cpp.vcFormat.indent.braces": true,
+	"C_Cpp.vcFormat.indent.accessSpecifiers": true,
+	"C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+	"C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+	"C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
+	"C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
+	"C_Cpp.vcFormat.space.afterCastCloseParenthesis": true,
+	"C_Cpp.vcFormat.space.beforeComma": true
 }
