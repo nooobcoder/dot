@@ -15,6 +15,26 @@
 	"workbench.editor.enablePreview": false,
 	"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
 	"git.suggestSmartCommit": false,
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"name": "Comment",
+				"scope": [
+					"comment",
+					"comment.block",
+					"comment.block.documentation",
+					"comment.line",
+					"comment.line.double-slash",
+					"punctuation.definition.comment"
+				],
+				"settings": {
+					"fontStyle": "italic"
+					// "fontStyle": "italic underline",
+					// "fontStyle": "italic bold underline",
+				}
+			}
+		]
+	},
 	"[dart]": {
 		"editor.formatOnSave": true,
 		"editor.formatOnType": true,
