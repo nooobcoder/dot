@@ -81,8 +81,6 @@ else
     code-server --install-extension Equinusocio.vsc-material-theme
     code-server --install-extension esbenp.prettier-vscode
     code-server --install-extension evan-buss.font-switcher
-    code-server --install-extension formulahendry.auto-close-tag
-    code-server --install-extension formulahendry.auto-rename-tag
     code-server --install-extension Fr43nk.seito-openfile
     code-server --install-extension GitHub.github-vscode-theme
     code-server --install-extension jpoissonnier.vscode-styled-components
