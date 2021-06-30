@@ -95,7 +95,7 @@
 		"*.rmd": "markdown"
 	},
 	"editor.columnSelection": false,
-	"terminal.integrated.defaultProfile.linux": "/usr/bin/zsh",
+	"terminal.integrated.defaultProfile.linux": "zsh",
 	"extensions.autoUpdate": false,
 	/* "indentRainbow.colors": [
 		"rgba(255,255,64,0.07)",
