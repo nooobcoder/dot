@@ -13,6 +13,8 @@ sudo apt install gdb -y
 curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo apt install npm -y
+sudo apt install wget
+sudo apt install python3
 sudo apt-get install iputils-ping -y
 
 # Install ZSH
@@ -75,12 +77,9 @@ else
     code-server --install-extension steoates.autoimport
     code-server --install-extension tgreen7.vs-code-node-require
     code-server --install-extension tinkertrain.theme-panda
-    code-server --install-extension vaniship.vue-ls-snippets
     code-server --install-extension wix.vscode-import-cost
-    code-server --install-extension dahong.theme-bear
     code-server --install-extension ms-toolsai.jupyter
     code-server --install-extension ms-vscode.cpptools
-    code-server --install-extension xaver.clang-format
     code-server --install-extension trinm1709.dracula-theme-from-intellij
 fi
 
