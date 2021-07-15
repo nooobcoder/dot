@@ -13,6 +13,7 @@
 	"editor.formatOnType": true,
 	"rust-client.rustupPath": "~/.cargo/bin/rustup",
 	"workbench.editor.enablePreview": false,
+	"python.formatting.provider": "autopep8",
 	"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
 	"git.suggestSmartCommit": false,
 	"editor.tokenColorCustomizations": {
