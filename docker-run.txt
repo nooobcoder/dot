@@ -1,0 +1,44 @@
+docker run -it --name code-server -p 7880:8080 -p 1030-1050:1030-1050 -p 3000:3000 -e "DOCKER_USER=$USER"  -v "/home/ankurpaul/AppConfig/CodeServer/.config:/home/coder/.config" -v "/home/ankurpaul/AppConfig/CodeServer/data:/home/coder/.local/share/code-server"   -v "/home/ankurpaul/VSCodes:/home/coder/project" -v /home/ankurpaul/AppConfig/CodeServer/certs/certs.crt:/home/coder/cert.crt -v /home/ankurpaul/AppConfig/CodeServer/certs/certs.key:/home/coder/cert.key  -u "$(id -u):$(id -g)"   -e "DOCKER_USER=ankurpaul"  -e "USER=ankurpaul"    codercom/code-server:latest --cert /home/coder/cert.crt --cert-key /home/coder/cert.key
+
+
+[ NEW ]
+docker run -it --name code-server --network host -v "${PWD}/.config:/home/coder/.config" -v "${PWD}/data:/home/coder/.local/share/code-server"   -v "/home/ubuntu/VSCodes:/home/coder/project" -v "${PWD}/certs/certs.crt:/home/coder/cert.crt" -v "${PWD}/certs/certs.key:/home/coder/cert.key"  -u "$(id -u):$(id -g)"  -e "USER=$USER"  codercom/code-server:latest --cert /home/coder/cert.crt --cert-key /home/coder/cert.key
+
+docker run -it --name code-server --network host -v "${PWD}/.config:/home/coder/.config" -v "${PWD}/data:/home/coder/.local/share/code-server"   -v "/home/pi/VSCodes:/home/coder/project" -v "${PWD}/certs/certs.crt:/home/coder/cert.crt" -v "${PWD}/certs/certs.key:/home/coder/cert.key"  -u "$(id -u):$(id -g)"  -e "USER=$USER"  codercom/code-server:latest --cert /home/coder/cert.crt --cert-key /home/coder/cert.key
+
+google-chrome --ignore-certificate-errors --unsafely-treat-insecure-origin-as-secure=https://192.168.0.105:8080,https://192.168.0.118:7880,https://192.168.0.118:8880,https://192.168.0.120:8080 --user-data-dir=/tmp/foo
+
+
+chrome://flags/#allow-insecure-localhost
+
+
+openssl req -x509 -newkey rsa:4096 -sha256 -days 3650 -nodes \
+  -keyout certs.key -out certs.crt -subj "/CN=cowintracker.duckdns.org" \
+  -addext "subjectAltName=IP:192.168.0.120"
+
+GENERATE CRT AND KEY FILE IN THE CERTS DIRECTORY
+openssl req \
+       -newkey rsa:2048 -nodes -keyout certs.key \
+       -x509 -days 365 -out certs.crt
+
+
+       [IMPORTANT]
+       
+sudo apt update;
+sudo apt-get upgrade -y;
+sudo apt install python3-pip;
+
+become super user by sudo su after sshing to the container
+sudo pip3 install pylint;
+sudo pip3 install autopep8;
+
+
+sudo apt-get install openjdk-11-jdk -y;
+sudo apt install g++ -y;
+sudo apt install gcc -y;
+sudo apt install gdb -y;
+
+
+export PATH=$PATH:/root/.local/lib/python3.7/site-packages
+
+https://medium.com/@antelle/how-to-generate-a-self-signed-ssl-certificate-for-an-ip-address-f0dd8dddf754
