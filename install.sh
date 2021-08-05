@@ -59,6 +59,7 @@ else
     code-server --install-extension daylerees.rainglow
     code-server --install-extension vscjava.vscode-java-pack
     code-server --install-extension oderwat.indent-rainbow
+    code-server --install-extension bradlc.vscode-tailwindcss
     code-server --install-extension CoenraadS.bracket-pair-colorizer
     code-server --install-extension k--kato.intellij-idea-keybindings
     code-server --install-extension evan-buss.font-switcher
