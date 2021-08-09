@@ -6,6 +6,7 @@ sudo apt-get upgrade -y
 sudo apt-get install git -y
 sudo apt install python3-pip -y
 sudo pip3 install pylint
+sudo pip3 install pipenv
 sudo pip3 install autopep8
 sudo apt-get install openjdk-11-jdk -y
 sudo apt install unzip
