@@ -32,6 +32,9 @@ git config --global user.email "suryashi2013@gmail.com"
 git config --global user.signingkey your-long-gpg-key-here
 git config --global commit.gpgsign true  
 
+# Permission fixes
+sudo chmod -R 777 /home/coder/.local/lib
+
 # Making a project folder
 mkdir project
 
