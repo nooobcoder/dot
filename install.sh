@@ -28,6 +28,8 @@ sudo chsh -s /bin/zsh $USER
 
 git config --global user.name "nooobcoder"
 git config --global user.email "suryashi2013@gmail.com"
+git config --global user.signingkey your-long-gpg-key-here
+git config --global commit.gpgsign true  
 
 # Making a project folder
 mkdir project
