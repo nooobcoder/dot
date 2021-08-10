@@ -3,6 +3,7 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"git.enableCommitSigning": true,
+	"editor.cursorSmoothCaretAnimation": true,
 	"window.title": "${dirty} (ツ)_/¯ ${activeEditorShort}",
 	"editor.fontLigatures": true,
 	"editor.lineHeight": 25,
