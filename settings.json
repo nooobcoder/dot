@@ -3,19 +3,18 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"git.enableCommitSigning": true,
-	"editor.cursorSmoothCaretAnimation": true,
 	"window.title": "${dirty} (ツ)_/¯ ${activeEditorShort}",
 	"editor.fontLigatures": true,
 	"editor.lineHeight": 25,
 	"editor.letterSpacing": 0.8,
-	"python.languageServer": "Pylance",
+	"python.languageServer": "Jedi",
 	"editor.suggestSelection": "first",
 	"editor.mouseWheelZoom": true,
 	"editor.formatOnPaste": true,
 	"editor.formatOnType": true,
+	"python.formatting.provider": "autopep8",
 	"rust-client.rustupPath": "~/.cargo/bin/rustup",
 	"workbench.editor.enablePreview": false,
-	"python.formatting.provider": "autopep8",
 	"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
 	"git.suggestSmartCommit": false,
 	"editor.tokenColorCustomizations": {
@@ -61,13 +60,11 @@
 			"filenamePattern": "*.ipynb"
 		}
 	],
-	"workbench.startupEditor": "welcomePage",
 	"editor.formatOnSave": true,
 	"[cpp]": {
 		"editor.defaultFormatter": "ms-vscode.cpptools"
 	},
 	"files.autoSave": "afterDelay",
-	"editor.cursorBlinking": "smooth",
 	"workbench.colorTheme": "Shades of Purple",
 	"prettier.tabWidth": 4,
 	"prettier.useTabs": true,
@@ -126,9 +123,9 @@
 	"window.menuBarVisibility": "visible",
 	"diffEditor.codeLens": true,
 	"editor.minimap.maxColumn": 200,
-	"editor.fontFamily": "'Fira Code', 'Cascadia Code', 'JetBrains Mono', 'monospace', 'VictorMono-Regular', 'Droid Sans Mono', monospace, 'Droid Sans Fallback'",
+	"editor.fontFamily": "'Cascadia Code', 'Fira Code', 'JetBrains Mono', 'monospace', 'VictorMono-Regular', 'Droid Sans Mono', monospace, 'Droid Sans Fallback'",
 	"files.autoSaveDelay": 15000,
-	"liveServer.settings.donotShowInfoMsg": false,
+	"liveServer.settings.donotShowInfoMsg": true,
 	"liveServer.settings.host": "0.0.0.0",
 	"liveServer.settings.port": 3000,
 	"editor.fontSize": 15,
@@ -197,5 +194,40 @@
 				}
 			}
 		]
-	}
+	},
+	"java.configuration.runtimes": [
+		{
+			"name": "JavaSE-11",
+			"path": "/home/coder/project/javajdk/",
+			"default": true
+		}
+	],
+	"java.home": "/home/coder/project/javajdk/",
+	"java.semanticHighlighting.enabled": true,
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"workbench.activityBar.visible": true,
+	"workbench.sideBar.location": "left",
+	"[markdown]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"extensions.ignoreRecommendations": true,
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.cursorBlinking": "smooth",
+	"editor.hover.delay": 100,
+	"editor.inlayHints.fontFamily": "'Cascadia Code','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+	"editor.semanticHighlighting.enabled": true,
+	"editor.smoothScrolling": true,
+	"editor.tabCompletion": "on",
+	"editor.suggest.preview": true,
+	"files.eol": "\r\n",
+	"workbench.hover.delay": 200,
+	"workbench.list.smoothScrolling": true,
+	"workbench.welcomePage.experimental.startEntryContributions": true,
+	"workbench.welcomePage.walkthroughs.openOnInstall": false
 }
