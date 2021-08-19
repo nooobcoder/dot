@@ -14,4 +14,7 @@ export PATH=$PATH:/root/.local/bin
 export JAVA_HOME=/home/coder/project/javajdk
 export PATH=${PATH}:${JAVA_HOME}/bin
 
+# For GPG to ask for pin entry
+export GPG_TTY=$(tty)
+
 source $ZSH/oh-my-zsh.sh
