@@ -1,5 +1,6 @@
 [user]
-	name = Ben
-	email = me@bpmct.net
-[credential]
-	helper = store
+	name = nooobcoder
+	email = suryashi2013@gmail.com
+	signingKey = yourprivatekeyhere
+[commit]
+	gpgSign = true
