@@ -64,6 +64,7 @@ fi
 
 # Install extensions
 code-server --install-extension esbenp.prettier-vscode
+code-server --install-extension humao.rest-client
 code-server --install-extension daylerees.rainglow
 code-server --install-extension vscjava.vscode-java-pack
 code-server --install-extension oderwat.indent-rainbow
