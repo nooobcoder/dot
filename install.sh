@@ -20,6 +20,10 @@ sudo apt-get install iputils-ping -y
 sudo apt install nodejs -y
 sudo apt install npm -y
 
+# Install a plugin for ZSH auto suggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+
 # Install DenoJS from source
 curl -fsSL https://deno.land/x/install/install.sh | sh
 
