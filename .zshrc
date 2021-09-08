@@ -3,6 +3,7 @@ export ZSH_THEME="cloud"
 plugins=(
   git
   dotenv
+  zsh-autosuggestions
 )
 
 # Disable % eof
