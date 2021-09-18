@@ -20,13 +20,6 @@ sudo apt-get install iputils-ping -y
 sudo apt install nodejs -y
 sudo apt install npm -y
 
-# Install a plugin for ZSH auto suggestions
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-
-
-# Install DenoJS from source
-curl -fsSL https://deno.land/x/install/install.sh | sh
-
 # Install ZSH
 sudo apt-get install -y vim zsh nano
 sudo chsh -s /bin/zsh $USER
@@ -52,6 +45,9 @@ else
     touch ~/.zshrc # not sure if this will always exist at this point :/
     cat .zshrc >> ~/.zshrc
 fi
+
+# Install a plugin for ZSH auto suggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # copy dotfiles into ~
 shopt -s dotglob # include . in *
@@ -130,5 +126,4 @@ code-server --install-extension vscjava.vscode-java-test
 code-server --install-extension vscjava.vscode-maven
 code-server --install-extension vsls-contrib.codetour
 code-server --install-extension xaver.clang-format
-code-server --install-extension denoland.vscode-deno
 code-server --install-extension trinm1709.dracula-theme-from-intellij
