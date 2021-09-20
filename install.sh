@@ -49,6 +49,8 @@ fi
 # Install a plugin for ZSH auto suggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
+sudo npm i -g nodemon serve eslint typescript
+
 # copy dotfiles into ~
 shopt -s dotglob # include . in *
 shopt -s extglob
