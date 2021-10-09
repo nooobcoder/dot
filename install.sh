@@ -16,7 +16,7 @@ sudo apt install gdb -y
 curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo apt install npm -y
-sudo apt-get install systemd iputils-ping -y
+sudo apt-get install iputils-ping -y
 sudo apt install nodejs -y
 sudo apt install npm -y
 
