@@ -1,6 +1,6 @@
 [user]
 	name = nooobcoder
 	email = suryashi2013@gmail.com
-	signingKey = yourprivatekeyhere
+	signingKey = F4471868B502ACC037FBF1FB7C2D646CF53E03BD
 [commit]
 	gpgSign = true
