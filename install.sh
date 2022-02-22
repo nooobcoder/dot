@@ -20,6 +20,8 @@ sudo apt install npm -y
 sudo apt-get install iputils-ping -y
 sudo apt install nodejs -y
 sudo apt install npm -y
+# Install node version manager nvm
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
 # Install ZSH
 sudo apt-get install -y vim zsh nano
