@@ -17,5 +17,8 @@ export PATH=${PATH}:${JAVA_HOME}/bin
 
 # For GPG to ask for pin entry
 export GPG_TTY=$(tty)
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" 
 
 source $ZSH/oh-my-zsh.sh
