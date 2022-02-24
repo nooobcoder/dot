@@ -14,7 +14,7 @@ sudo apt install g++ -y
 sudo apt install gcc -y
 sudo apt install curl -y
 sudo apt install gdb -y
-curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo apt install npm -y
 sudo apt-get install iputils-ping -y
