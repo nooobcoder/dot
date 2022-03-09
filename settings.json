@@ -5,7 +5,6 @@
 	"git.enableCommitSigning": true,
 	"window.title": "${dirty} (ツ)_/¯ ${activeEditorShort}",
 	"editor.fontLigatures": true,
-	"terminal.integrated.enableBell": true,
 	"editor.lineHeight": 25,
 	"editor.letterSpacing": 0.8,
 	"python.languageServer": "Jedi",
@@ -74,13 +73,6 @@
 	"debug.console.wordWrap": false,
 	"editor.wordWrap": "on",
 	"deno.path": "/home/coder/.deno/bin/deno",
-	"java.configuration.runtimes": [
-		{
-			"name": "JavaSE-11",
-			"path": "/usr/lib/jvm/jdk-11.0.10",
-			"default": true
-		}
-	],
 	"terminal.integrated.cursorBlinking": true,
 	"terminal.integrated.enableBell": true,
 	"editor.minimap.enabled": true,
@@ -120,7 +112,7 @@
 	"editor.quickSuggestionsDelay": 5,
 	"diffEditor.codeLens": true,
 	"editor.minimap.maxColumn": 200,
-	"editor.fontFamily": "'IBM Plex Mono', 'Cascadia Code', 'Fira Code iScript', monospace, 'Fira Code', 'JetBrains Mono', 'monospace', 'VictorMono-Regular', 'Droid Sans Mono', 'Droid Sans Fallback'",
+	"editor.fontFamily": "'MonoLisa','Cascadia Code','Fira Code','IBM Plex Mono',  'Fira Code iScript', monospace, 'Fira Code', 'JetBrains Mono', 'monospace', 'VictorMono-Regular', 'Droid Sans Mono', 'Droid Sans Fallback'",
 	"files.autoSaveDelay": 15000,
 	"liveServer.settings.donotShowInfoMsg": true,
 	"liveServer.settings.host": "0.0.0.0",
@@ -148,11 +140,10 @@
 	"editor.fontWeight": "normal",
 	// "terminal.integrated.fontWeight": "330",
 	"terminal.integrated.fontWeight": "normal",
-	"terminal.integrated.fontFamily": "'IBM Plex Mono','Cascadia Code', 'Fira Code iScript', 'Fira Code', 'JetBrains Mono', 'monospace', 'VictorMono-Regular', 'Droid Sans Mono', monospace, 'Droid Sans Fallback'",
+	"terminal.integrated.fontFamily": "'MonoLisa Regular','Cascadia Code','Fira Code','IBM Plex Mono',  'Fira Code iScript', monospace, 'Fira Code', 'JetBrains Mono', 'monospace', 'VictorMono-Regular', 'Droid Sans Mono', 'Droid Sans Fallback'",
 	"debug.inlineValues": true,
 	"C_Cpp.experimentalFeatures": "Enabled",
 	"C_Cpp.intelliSenseUpdateDelay": 500,
-	"C_Cpp.updateChannel": "Insiders",
 	"C_Cpp.vcFormat.indent.caseLabels": true,
 	"C_Cpp.vcFormat.indent.braces": true,
 	"C_Cpp.vcFormat.indent.accessSpecifiers": true,
@@ -162,46 +153,6 @@
 	"C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
 	"C_Cpp.vcFormat.space.afterCastCloseParenthesis": true,
 	"C_Cpp.vcFormat.space.beforeComma": true,
-	"editor.tokenColorCustomizations": {
-		"textMateRules": [
-			{
-				"scope": [
-					//following will be in italic
-					"comment",
-					"entity.name.type.class", //class names
-					"constant", //String, Number, Boolean…, this, super
-					"storage.modifier", //static keyword
-					"storage.type.class.js", //class keyword
-					"keyword" //import, export, return…
-				],
-				"settings": {
-					"fontStyle": "italic"
-				}
-			},
-			{
-				"scope": [
-					//following will be excluded from italics (VSCode has some defaults for italics)
-					"invalid",
-					"keyword.operator",
-					"constant.numeric.css",
-					"keyword.other.unit.px.css",
-					"constant.numeric.decimal.js",
-					"constant.numeric.json"
-				],
-				"settings": {
-					"fontStyle": ""
-				}
-			}
-		]
-	},
-	"java.configuration.runtimes": [
-		{
-			"name": "JavaSE-11",
-			"path": "/home/coder/project/javajdk/",
-			"default": true
-		}
-	],
-	"java.home": "/home/coder/project/javajdk/",
 	"java.semanticHighlighting.enabled": true,
 	"files.exclude": {
 		"**/.classpath": true,
