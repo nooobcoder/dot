@@ -20,6 +20,7 @@ sudo apt install npm -y
 sudo apt-get install iputils-ping -y
 sudo apt install nodejs -y
 sudo apt install npm -y
+sudo apt-get install neofetch htop -y
 # Install node version manager nvm
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
@@ -135,5 +136,3 @@ ln -sf $DOTFILES_CLONE_PATH/.local/share/code-server/User/settings.json $HOME/.l
 /var/tmp/coder/code-server/bin/code-server --install-extension vsls-contrib.codetour
 /var/tmp/coder/code-server/bin/code-server --install-extension xaver.clang-format
 /var/tmp/coder/code-server/bin/code-server --install-extension trinm1709.dracula-theme-from-intellij
-
-
