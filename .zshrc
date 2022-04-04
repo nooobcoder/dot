@@ -1,5 +1,6 @@
 export ZSH=$HOME/.oh-my-zsh
-export ZSH_THEME="cloud"
+export ZSH_THEME="vercel"
+# "cloud" theme is prettier
 plugins=(
   git
   dotenv
