@@ -53,6 +53,10 @@ fi
 # Install a plugin for ZSH auto suggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
+# Install vercel's zsh theme
+curl https://raw.githubusercontent.com/vercel/zsh-theme/master/vercel.zsh-theme -Lo ~/.oh-my-zsh/custom/themes/vercel.zsh-theme
+
+
 sudo npm i -g nodemon serve eslint typescript npkill
 
 DOTFILES_CLONE_PATH=$HOME/dotfiles
