@@ -24,6 +24,14 @@ sudo apt-get install neofetch htop -y
 # Install node version manager nvm
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
+# Set time
+sudo apt-get update
+sudo apt-get install tzdata
+
+# Reconfigure time
+sudo dpkg-reconfigure tzdata
+
+
 # Install ZSH
 sudo apt-get install -y vim zsh nano
 sudo chsh -s /bin/zsh $USER
