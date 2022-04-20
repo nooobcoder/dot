@@ -8,13 +8,13 @@ sudo apt install python3-pip -y
 sudo pip3 install pylint
 sudo pip3 install pipenv
 sudo pip3 install autopep8
-sudo apt-get install openjdk-11-jdk -y
+sudo apt-get install openjdk-17-jdk -y
 sudo apt install unzip
 sudo apt install g++ -y
 sudo apt install gcc -y
 sudo apt install curl -y
 sudo apt install gdb -y
-curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
 sudo apt-get install -y nodejs
 sudo apt install npm -y
 sudo apt-get install iputils-ping -y
